@@ -1,0 +1,44 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  padding: 15px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.contenedor-carrito {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 75px;
+}
+
+.list-group-item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.list-group-item:active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
